@@ -12,5 +12,13 @@ with (other)
 
 }
 
+lives -= 1;
 
-room_goto(Room2)
+if(lives <= 0) 
+{
+	show_message(string(lives))
+	room_goto(GameOver)
+} else {
+	show_message(string(lives))
+	room_goto(room)
+}
