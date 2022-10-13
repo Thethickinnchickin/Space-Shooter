@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "bullet_obj",
   "spriteId": {
-    "name": "bullet",
-    "path": "sprites/bullet/bullet.yy",
+    "name": "bullet_spr",
+    "path": "sprites/bullet_spr/bullet_spr.yy",
   },
   "solid": false,
   "visible": true,
